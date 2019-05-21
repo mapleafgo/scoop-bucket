@@ -3,19 +3,19 @@
   "homepage": "https://www.navicat.com",
   "architecture": {
     "64bit": {
-      "url": "http://download.navicat.com.cn/download/navicat121_premium_cs_x64.exe#/navicat121_x64.7z"
+      "url": "http://download.navicat.com.cn/download/navicat121_premium_cs_x64.exe"
     },
     "32bit": {
-      "url": "http://download.navicat.com.cn/download/navicat121_premium_cs_x86.exe#/navicat121_x86.7z"
+      "url": "http://download.navicat.com.cn/download/navicat121_premium_cs_x86.exe"
     }
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "http://download.navicat.com.cn/download/navicat$version_premium_cs_x64.exe#/navicat$version_x64.7z"
+        "url": "http://download.navicat.com.cn/download/navicat$version_premium_cs_x64.exe"
       },
       "32bit": {
-        "url": "http://download.navicat.com.cn/download/navicat$version_premium_cs_x86.exe#/navicat$version_x86.7z"
+        "url": "http://download.navicat.com.cn/download/navicat$version_premium_cs_x86.exe"
       }
     }
   },
