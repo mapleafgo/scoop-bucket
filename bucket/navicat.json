@@ -4,11 +4,11 @@
     "architecture": {
         "64bit": {
             "url": "http://download.navicat.com.cn/download/navicat121_premium_cs_x64.exe",
-            "hash": "35b62ccacdd7b9b303144e0461dd2c02020bda05479bffe2113d476d20a32024"
+            "hash": "88cc5d51d73901e72a7836c03e61a10f6ac8e9d6d154fc0c297441d9d01288cd"
         },
         "32bit": {
             "url": "http://download.navicat.com.cn/download/navicat121_premium_cs_x86.exe",
-            "hash": "a445f968009f0420b9d6e11ddc62ed5e9b5841220f2b9e6bdac597e87a712783"
+            "hash": "4122930715a916a8e9ccd34caeae8bf2361a12d1538a545759bed08de46f5e6d"
         }
     },
     "checkver": {
@@ -26,5 +26,10 @@
         }
     },
     "innosetup": true,
-    "shortcuts": [["navicat.exe", "Navicat Premium"]]
+    "shortcuts": [
+        [
+            "navicat.exe",
+            "Navicat Premium"
+        ]
+    ]
 }
