@@ -20,24 +20,17 @@
     "architecture": {
         "64bit": {
             "url": "https://resource.u-tools.cn/version/uTools-0.8.0-beta.exe#/uTools.7z",
-            "hash": "8b7c82d807201ae9dfece963649caceff6d2df918e99b377aa39ff440e4a26fd",
             "installer": {
                 "script": "7z x $original_dir/PLUGINSDIR/app-64.7z -o\"$original_dir\""
             }
         },
         "32bit": {
             "url": "https://resource.u-tools.cn/version/uTools-0.8.0-beta-ia32.exe#/uTools.7z",
-            "hash": "34047e488a71d2dd4a6230bef11c267a46262541153fc76e93d97234deed2536",
             "installer": {
                 "script": "7z x $original_dir/PLUGINSDIR/app-32.7z -o\"$original_dir\""
             }
         }
     },
     "post_install": "rm $original_dir/PLUGINSDIR -recurse",
-    "shortcuts": [
-        [
-            "uTools.exe",
-            "uTools"
-        ]
-    ]
+    "shortcuts": [["uTools.exe", "uTools"]]
 }
