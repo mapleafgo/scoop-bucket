@@ -1,36 +1,43 @@
 {
-    "version": "0.8.0-beta",
+    "version": "0.8.2-beta",
     "homepage": "https://u.tools/",
     "extract_dir": "$PLUGINSDIR",
     "extract_to": "PLUGINSDIR",
     "checkver": {
-        "url": "https://resource.u-tools.cn/version/latest.yml",
+        "url": "https://resource.u-tools.cn/currentversion/latest.yml",
         "regex": "version: (.*)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://resource.u-tools.cn/version/uTools-$version.exe#/uTools.7z"
+                "url": "https://resource.u-tools.cn/currentversion/uTools-$version.exe#/uTools.7z"
             },
             "32bit": {
-                "url": "https://resource.u-tools.cn/version/uTools-$version-ia32.exe#/uTools.7z"
+                "url": "https://resource.u-tools.cn/currentversion/uTools-$version-ia32.exe#/uTools.7z"
             }
         }
     },
     "architecture": {
         "64bit": {
-            "url": "https://resource.u-tools.cn/version/uTools-0.8.0-beta.exe#/uTools.7z",
+            "url": "https://resource.u-tools.cn/currentversion/uTools-0.8.2-beta.exe#/uTools.7z",
+            "hash": "f90c7334d254252ee176fc58cd201d98d86992991e793b905fa385b87b20a457",
             "installer": {
                 "script": "7z x $original_dir/PLUGINSDIR/app-64.7z -o\"$original_dir\""
             }
         },
         "32bit": {
-            "url": "https://resource.u-tools.cn/version/uTools-0.8.0-beta-ia32.exe#/uTools.7z",
+            "url": "https://resource.u-tools.cn/currentversion/uTools-0.8.2-beta-ia32.exe#/uTools.7z",
+            "hash": "77db20b4069a7885c48d80c05e70da87977bb090a66d2e2d77ac7ac16295cf9e",
             "installer": {
                 "script": "7z x $original_dir/PLUGINSDIR/app-32.7z -o\"$original_dir\""
             }
         }
     },
     "post_install": "rm $original_dir/PLUGINSDIR -recurse",
-    "shortcuts": [["uTools.exe", "uTools"]]
+    "shortcuts": [
+        [
+            "uTools.exe",
+            "uTools"
+        ]
+    ]
 }
