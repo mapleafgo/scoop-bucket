@@ -1,8 +1,8 @@
 {
-    "version": "3.1.0",
+    "version": "3.1.1",
     "homepage": "http://staruml.io",
-    "url": "http://staruml.io/download/releases/StarUML Setup 3.1.0.exe#/StarUML.7z",
-    "hash": "4cf3a7030f287fd0739ab49655655255c7ddeeb75f705def9157aedc45aefbf9",
+    "url": "http://staruml.io/download/releases/StarUML Setup 3.1.1.exe#/StarUML.7z",
+    "hash": "004c23604f14cf59bf87b3644195e62253a182c4678731a2786a8012390b222a",
     "extract_dir": "$PLUGINSDIR",
     "extract_to": "PLUGINSDIR",
     "checkver": "Current version: ([\\d\\.]+)",
