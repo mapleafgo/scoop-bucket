@@ -1,0 +1,22 @@
+name: CI
+
+on:
+  schedule:
+    - cron: "0 1 *"
+
+jobs:
+  check:
+    name: check update
+    runs-on: windows-2019
+    env:
+      SCOOP: "C:\\scoop"
+    steps:
+    - name: 设置目录
+      shell: powershell
+      run: "[environment]::setEnvironmentVariable('SCOOP',$SCOOP,'User')"
+    - name: 安装scoop
+      shell: powershell
+      run: iwr -useb get.scoop.sh | iex
+    - name: Run a one-line script
+      shell: powershell
+      run: .\bin\checkver.ps1 -u
