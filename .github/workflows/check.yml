@@ -9,7 +9,7 @@ jobs:
     name: check update
     runs-on: windows-2019
     env:
-      SCOOP: "C:\\scoop"
+      SCOOP: "C:/scoop"
     steps:
     - name: 设置目录
       shell: powershell
@@ -17,8 +17,15 @@ jobs:
     - name: 安装scoop
       shell: powershell
       run: iwr -useb get.scoop.sh | iex
+    - uses: C:/scoop/buckets
+    - uses: actions/checkout@master
     - name: Run a one-line script
       shell: powershell
       run: .\bin\checkver.ps1 -u
-    - name: action-push
-      uses: ludeeus/action-push@0.0.1
+    - name: Commit files
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git commit -m "Add changes" -a
+    - name: Push changes
+      uses: ad-m/github-push-action@master
