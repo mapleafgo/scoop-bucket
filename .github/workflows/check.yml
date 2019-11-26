@@ -19,7 +19,7 @@ jobs:
       shell: powershell
       run: scoop bucket add fanlide https://github.com/fanlide/scoop-bucket.git
     - name: 切换目录
-      run: d:\scoop\buckets\fanlide
+      run: cd d:\scoop\buckets\fanlide
     - name: 检查更新
       shell: powershell
       run: .\bin\checkver.ps1 -u
