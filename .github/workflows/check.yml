@@ -12,8 +12,9 @@ jobs:
     - name: 安装scoop
       shell: pwsh
       run: |
-        set-executionpolicy remotesigned -scope currentuser
+        set-executionpolicy unrestricted -scope currentuser
         iwr -useb get.scoop.sh | iex
+        scoop status
     - uses: actions/checkout@master
     - name: 检查更新
       shell: pwsh
