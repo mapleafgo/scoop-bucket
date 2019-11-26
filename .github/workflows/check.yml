@@ -8,12 +8,7 @@ jobs:
   check:
     name: check update
     runs-on: windows-2019
-    env:
-      SCOOP: "C:/scoop"
     steps:
-    - name: 设置目录
-      shell: powershell
-      run: "[environment]::setEnvironmentVariable('SCOOP',$SCOOP,'User')"
     - name: 安装scoop
       shell: powershell
       run: iwr -useb get.scoop.sh | iex
@@ -26,6 +21,8 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git commit -m "Add changes" -a
+        git commit -m "日常更新" -a
     - name: Push changes
       uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.access_token }}
