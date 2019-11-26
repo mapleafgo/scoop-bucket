@@ -18,16 +18,17 @@ jobs:
     - name: 安装仓库
       shell: powershell
       run: scoop bucket add fanlide https://github.com/fanlide/scoop-bucket.git
-    - uses: d:\scoop\buckets\fanlide
+    - name: 切换目录
+      run: d:\scoop\buckets\fanlide
     - name: 检查更新
       shell: powershell
-      run: d:\scoop\buckets\fanlide\bin\checkver.ps1 -u
-    - name: Commit files
+      run: .\bin\checkver.ps1 -u
+    - name: 提交
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git commit -m "日常更新" -a
-    - name: Push changes
+    - name: 推送
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.access_token }}
