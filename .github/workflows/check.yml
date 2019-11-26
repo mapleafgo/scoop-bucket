@@ -21,7 +21,7 @@ jobs:
     - uses: d:\scoop\buckets\fanlide
     - name: 检查更新
       shell: powershell
-      run: .\bin\checkver.ps1 -u
+      run: d:\scoop\buckets\fanlide\bin\checkver.ps1 -u
     - name: Commit files
       run: |
         git config --local user.email "action@github.com"
