@@ -11,7 +11,9 @@ jobs:
     steps:
     - name: 安装scoop
       shell: pwsh
-      run: iwr -useb get.scoop.sh | iex
+      run: |
+        set-executionpolicy remotesigned -scope currentuser
+        iwr -useb get.scoop.sh | iex
     - uses: actions/checkout@master
     - name: 检查更新
       shell: pwsh
