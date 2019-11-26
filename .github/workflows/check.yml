@@ -11,7 +11,7 @@ jobs:
     steps:
     - name: 安装scoop
       shell: powershell
-      run: Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh') | scoop help
+      run: iwr -useb get.scoop.sh | iex | exit
     - uses: actions/checkout@master
     - name: 检查更新
       shell: powershell
