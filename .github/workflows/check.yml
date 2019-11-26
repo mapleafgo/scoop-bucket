@@ -15,7 +15,9 @@ jobs:
         $env:SCOOP='d:\scoop'
         [environment]::setEnvironmentVariable('SCOOP',$env:SCOOP,'User')
         iwr -useb get.scoop.sh | iex
+        echo $env:PATH
         $env:PATH="$env:PATH;d:\scoop\apps\scoop\current\bin"
+        echo $env:PATH
     - uses: actions/checkout@master
     - name: 检查更新
       shell: powershell
