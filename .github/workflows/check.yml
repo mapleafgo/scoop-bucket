@@ -11,15 +11,8 @@ jobs:
     steps:
     - name: 安装scoop
       shell: powershell
-      run: |
-        $env:SCOOP='d:\scoop'
-        [environment]::setEnvironmentVariable('SCOOP',$env:SCOOP,'User')
-        iwr -useb get.scoop.sh | iex
-    - name: 安装仓库
-      shell: powershell
-      run: scoop bucket add fanlide https://github.com/fanlide/scoop-bucket.git
-    - name: 切换目录
-      run: cd d:\scoop\buckets\fanlide
+      run: iwr -useb get.scoop.sh | iex |
+    - uses: actions/checkout@master
     - name: 检查更新
       shell: powershell
       run: .\bin\checkver.ps1 -u
