@@ -11,7 +11,8 @@ jobs:
     steps:
     - name: 安装scoop
       shell: powershell
-      run: iwr -useb get.scoop.sh | iex | exit
+      run: iwr -useb get.scoop.sh | iex
+        exit
     - uses: actions/checkout@master
     - name: 检查更新
       shell: powershell
