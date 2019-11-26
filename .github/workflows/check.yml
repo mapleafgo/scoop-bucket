@@ -10,7 +10,7 @@ jobs:
     runs-on: windows-2019
     steps:
     - name: 安装scoop
-      shell: cmd
+      shell: powershell
       run: iwr -useb get.scoop.sh | iex
     - uses: actions/checkout@master
     - name: 检查更新
