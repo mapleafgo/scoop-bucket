@@ -2,7 +2,7 @@ name: CI
 
 on:
   schedule:
-  - cron: "0 1 * * ?"
+  - cron: "0 21 * * ?"
 
 jobs:
   check:
@@ -10,18 +10,20 @@ jobs:
     runs-on: windows-2019
     steps:
     - uses: actions/checkout@master
-    - name: 安装scoop
+    - name: scoop检查更新
       shell: pwsh
       run: |
         set-executionpolicy remotesigned -scope currentuser
         iwr -useb get.scoop.sh | iex
         .\bin\checkver.ps1 -u
     - name: 提交
+      if: success()
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git commit -m "日常更新" -a
     - name: 推送
+      if: success()
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.access_token }}
