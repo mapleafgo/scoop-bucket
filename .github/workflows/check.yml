@@ -18,16 +18,12 @@ jobs:
         .\bin\checkver.ps1 -u
     - name: 提交
       if: success()
-      uses: peter-evans/commit-comment@v1.0.1
+      uses: zwaldowski/git-commit-action@v1
       with:
-        token: ${{ secrets.access_token }}
-        body: 日常更新
-#      run: |
-#        git config --local user.email "action@github.com"
-#        git config --local user.name "GitHub Action"
-#        git status -s
-#        git commit -m "日常更新" -a
-#    - name: Push changes
-#      uses: ad-m/github-push-action@master
-#      with:
-#        github_token: ${{ secrets.access_token }}
+        commit_message: 日常更新
+        author_name: GitHub Action
+        author_email: action@github.com
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.access_token }}
