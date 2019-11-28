@@ -18,8 +18,8 @@ jobs:
         .\bin\checkver.ps1 -u
     - name: 提交
       if: success()
-      uses: stefanzweifel/git-auto-commit-action@v2.3.0
+      uses: github-actions-x/commit@v2.2
       with:
         commit_message: 日常更新
-      env:
-        GITHUB_TOKEN: ${{ secrets.access_token }}
+        push-branch: master
+        github-token: ${{ secrets.access_token }}
