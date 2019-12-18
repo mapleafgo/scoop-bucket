@@ -4,11 +4,11 @@
     "url": "https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v1.2.5/Another.Redis.Desktop.Manager.1.2.5.exe#/AnotherRedis.7z",
     "hash": "9f41f716fe90ce4154ca31af3ef4fdf6a96ec366140f74c02d6595f461f27fc6",
     "checkver": "github",
-    "extract_dir": "$PLUGINSDIR",
-    "extract_to": "PLUGINSDIR",
     "autoupdate": {
         "url": "https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v$version/Another.Redis.Desktop.Manager.$version.exe#/AnotherRedis.7z"
     },
+    "extract_dir": "$PLUGINSDIR",
+    "extract_to": "PLUGINSDIR",
     "installer": {
         "script": "7z x $original_dir/PLUGINSDIR/app-64.7z -o\"$original_dir\""
     },

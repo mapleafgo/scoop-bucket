@@ -3,8 +3,6 @@
     "homepage": "http://staruml.io",
     "url": "http://staruml.io/download/releases/StarUML Setup 3.2.0.exe#/StarUML.7z",
     "hash": "61e5be8c9cc0024c70ae07f73f4018d9c6fcc6dc6e421d6276e164eceb8cbf33",
-    "extract_dir": "$PLUGINSDIR",
-    "extract_to": "PLUGINSDIR",
     "checkver": "Current version: ([\\d\\.]+)",
     "autoupdate": {
         "url": "http://staruml.io/download/releases/StarUML Setup $version.exe#/StarUML.7z"
@@ -21,6 +19,8 @@
             }
         }
     },
+    "extract_dir": "$PLUGINSDIR",
+    "extract_to": "PLUGINSDIR",
     "post_install": "rm $original_dir/PLUGINSDIR -recurse",
     "shortcuts": [
         [

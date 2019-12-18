@@ -1,8 +1,6 @@
 {
     "version": "0.8.7-beta",
     "homepage": "https://u.tools/",
-    "extract_dir": "$PLUGINSDIR",
-    "extract_to": "PLUGINSDIR",
     "checkver": {
         "url": "https://resource.u-tools.cn/currentversion/latest.yml",
         "regex": "version: (.*)"
@@ -33,6 +31,8 @@
             }
         }
     },
+    "extract_dir": "$PLUGINSDIR",
+    "extract_to": "PLUGINSDIR",
     "post_install": "rm $original_dir/PLUGINSDIR -recurse",
     "shortcuts": [
         [
