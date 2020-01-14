@@ -1,8 +1,8 @@
 {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "homepage": "https://github.com/icellmobilsoft/etcdmanager",
-    "url": "https://github.com/icellmobilsoft/etcdmanager/releases/download/v1.0.0/etcd-manager-1.0.0-win64.exe#/etcdManager.7z",
-    "hash": "97d9454946e25b8dffd15c89ed5a6b29f7279f87976f63fa15e9b288228a9c6a",
+    "url": "https://github.com/icellmobilsoft/etcdmanager/releases/download/v1.1.0/etcd-manager-1.1.0-win64.exe#/etcdManager.7z",
+    "hash": "ec4170acda6f880a2444af3669e3b9febf4f6aa049008e86a9bc79f9c002f878",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/icellmobilsoft/etcdmanager/releases/download/v$version/etcd-manager-$version-win64.exe#/etcdManager.7z"

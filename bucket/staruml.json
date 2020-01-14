@@ -1,8 +1,8 @@
 {
-    "version": "3.2.1",
+    "version": "3.2.2",
     "homepage": "http://staruml.io",
-    "url": "http://staruml.io/download/releases/StarUML Setup 3.2.1.exe#/StarUML.7z",
-    "hash": "19530d947472aee14baae7416641dd0ffdb76acc7c4021de08d0715190882150",
+    "url": "http://staruml.io/download/releases/StarUML Setup 3.2.2.exe#/StarUML.7z",
+    "hash": "a09a5abb43bb891249f665b07c7dba58331c2d8cca9a4bfd6718b150330b961d",
     "checkver": "Current version: ([\\d\\.]+)",
     "autoupdate": {
         "url": "http://staruml.io/download/releases/StarUML Setup $version.exe#/StarUML.7z"
