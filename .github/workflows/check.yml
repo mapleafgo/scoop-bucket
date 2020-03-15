@@ -2,12 +2,12 @@ name: 检查更新
 
 on:
   schedule:
-  - cron: "0 21 * * ?"
+  - cron: "0 */5 * * ?"
 
 jobs:
   check:
     name: check update
-    runs-on: windows-2019
+    runs-on: windows
     steps:
     - uses: actions/checkout@master
     - name: scoop检查更新
@@ -24,6 +24,7 @@ jobs:
         git status -s
         git commit -m "日常更新" -a
     - name: Push changes
+      if: success()
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.access_token }}
