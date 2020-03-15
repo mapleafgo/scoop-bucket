@@ -21,8 +21,8 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git status -s
-        git commit -m "日常更新" -a
+        $n =(netstat -na | git status -s)
+        if($n -gt 0){ git commit -m "日常更新" -a}
     - name: Push changes
       if: success()
       uses: ad-m/github-push-action@master
