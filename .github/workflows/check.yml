@@ -7,7 +7,7 @@ on:
 jobs:
   check:
     name: check update
-    runs-on: windows
+    runs-on: windows-latest
     steps:
     - uses: actions/checkout@master
     - name: scoop检查更新
