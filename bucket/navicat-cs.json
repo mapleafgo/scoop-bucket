@@ -1,14 +1,14 @@
 {
-    "version": "12.1.27",
+    "version": "15.0.12",
     "homepage": "https://www.navicat.com.cn",
     "architecture": {
         "64bit": {
-            "url": "http://download.navicat.com.cn/download/navicat121_premium_cs_x64.exe",
-            "hash": "82e89e4b764cb71306340a58aeda6ddb3b50e8980489b8c7c86c95dffca02c4e"
+            "url": "http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe",
+            "hash": "13e7a53ebe7687ffc1affa678e4b90cb788197378a2360ca6ff3170348feb208"
         },
         "32bit": {
-            "url": "http://download.navicat.com.cn/download/navicat121_premium_cs_x86.exe",
-            "hash": "4c8784f564a25beb9d012ba8420ce2d47fbaab697c856392bbf45aecd0e85455"
+            "url": "http://download.navicat.com.cn/download/navicat150_premium_cs_x86.exe",
+            "hash": "c037aa38d797475d2ff3fc252e809ab33966b85c1bc17174f1f9c5210a172ded"
         }
     },
     "checkver": {
