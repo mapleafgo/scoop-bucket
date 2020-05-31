@@ -1,5 +1,5 @@
 {
-    "version": "1.0.6-beta",
+    "version": "1.0.7-beta",
     "homepage": "https://u.tools/",
     "checkver": {
         "url": "https://resource.u-tools.cn/currentversion/latest.yml",
@@ -17,15 +17,15 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://resource.u-tools.cn/currentversion/uTools-1.0.6-beta.exe#/uTools.7z",
-            "hash": "b1726b8250cb275f94259d6ac2168123c4ab5915790a23829797640b1a5d6aa1",
+            "url": "https://resource.u-tools.cn/currentversion/uTools-1.0.7-beta.exe#/uTools.7z",
+            "hash": "d163071648f0705c83960b84052a1b6455e5f30f5a287c9fb8ef4ffc61b784ca",
             "installer": {
                 "script": "7z x $original_dir/PLUGINSDIR/app-64.7z -o\"$original_dir\""
             }
         },
         "32bit": {
-            "url": "https://resource.u-tools.cn/currentversion/uTools-1.0.6-beta-ia32.exe#/uTools.7z",
-            "hash": "0f070b3eefaf3f9f298df14dda1869a14390cec03a391083ce30b6910462eedf",
+            "url": "https://resource.u-tools.cn/currentversion/uTools-1.0.7-beta-ia32.exe#/uTools.7z",
+            "hash": "196ddf7e0469c5d7954f11681985fa75d1a01cebe6faf3c3c1b5cb2ebeea50a9",
             "installer": {
                 "script": "7z x $original_dir/PLUGINSDIR/app-32.7z -o\"$original_dir\""
             }
