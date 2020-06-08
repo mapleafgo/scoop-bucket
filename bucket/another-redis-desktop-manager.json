@@ -5,7 +5,7 @@
     "hash": "26456b2177623aa5c9459b2a8b58753e4c1406869ffb7259747eee7da4d7f33a",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v$version/Another.Redis.Desktop.Manager.$version.exe#/AnotherRedis.7z"
+        "url": "https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v$version/Another-Redis-Desktop-Manager.$version.exe#/AnotherRedis.7z"
     },
     "extract_dir": "$PLUGINSDIR",
     "extract_to": "PLUGINSDIR",
