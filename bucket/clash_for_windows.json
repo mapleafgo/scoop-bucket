@@ -1,13 +1,18 @@
 {
     "version": "0.10.1",
     "homepage": "https://github.com/Fndroid/clash_for_windows_pkg",
-    "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.10.1/Clash.for.Windows.Setup.0.10.1.exe#dl.7z",
+    "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.10.1/Clash.for.Windows.Setup.0.10.1.exe#/dl.7z",
     "hash": "d8dce95d46766fc4704fcfaa93121e4b2b4d854a919029aaa247323a30f029e2",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/$version/Clash.for.Windows.Setup.$version.exe#dl.7z"
+        "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/$version/Clash.for.Windows.Setup.$version.exe#/dl.7z"
     },
-    "extract_to": "",
+    "extract_dir": "$PLUGINSDIR",
+    "extract_to": "PLUGINSDIR",
+    "installer": {
+        "script": "7z x $original_dir/PLUGINSDIR/app-64.7z -o\"$original_dir\""
+    },
+    "post_install": "rm $original_dir/PLUGINSDIR -recurse",
     "shortcuts": [
         [
             "Clash for Windows.exe",
