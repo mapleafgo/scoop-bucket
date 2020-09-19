@@ -12,7 +12,11 @@
         "bbd8dd269dd70d97e0224025281e55b7e2e32364d5c47e082ca7f45e33d1a613"
     ],
     "description": "Flutter makes it easy and fast to build beautiful mobile apps.",
-    "env_add_path": "bin\\cache\\dart-sdk",
+    "env_add_path": "bin",
+    "env_set": {
+        "PUB_HOSTED_URL": "https://pub.flutter-io.cn",
+        "FLUTTER_STORAGE_BASE_URL": "https://storage.flutter-io.cn"
+    },
     "bin": [
         "bin\\flutter.bat",
         "flutter-dev-setup.ps1"
