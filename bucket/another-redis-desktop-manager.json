@@ -1,8 +1,8 @@
 {
-    "version": "1.3.8",
+    "version": "1.3.9",
     "homepage": "https://github.com/qishibo/AnotherRedisDesktopManager",
-    "url": "https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v1.3.8/Another-Redis-Desktop-Manager.1.3.8.exe#/dl.7z",
-    "hash": "14f377dc66bacbfcbf659d1a04de63adbccd5d82fbcc016dba894abded4370d8",
+    "url": "https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v1.3.9/Another-Redis-Desktop-Manager.1.3.9.exe#/dl.7z",
+    "hash": "cea267e5b3a46d7fcd0192fc9f8b700cdb35e76610a207ca6efbf99fb6546a76",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v$version/Another-Redis-Desktop-Manager.$version.exe#/dl.7z"
