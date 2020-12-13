@@ -1,19 +1,19 @@
 {
-    "version": "1.03",
+    "version": "1.03.2011120",
     "homepage": "https://developers.weixin.qq.com/miniprogram/dev/devtools/devtools.html",
     "architecture": {
         "64bit": {
-            "url": "http://download.navicat.com.cn/download/navicat150_premium_cs_x64.exe",
-            "hash": "5ec95bda576e4bfd67009eea6b8f67542f9b99238dfbda533a80b4f8a1a74d41"
+            "url": "https://servicewechat.com/wxa-dev-logic/download_redirect?type=x64&from=mpwiki&download_version=1032011120&version_type=1",
+            "hash": "6f28acf57adf5b83ad101161ba3339c83b3ff09306e8904bbd205a24487f9815"
         },
         "32bit": {
-            "url": "http://download.navicat.com.cn/download/navicat150_premium_cs_x86.exe",
-            "hash": "79bf854c04b8900559e06d86907eb6c9e9eaf9922a25bfbf5c2260a8b47a22bc"
+            "url": "https://servicewechat.com/wxa-dev-logic/download_redirect?type=ia32&from=mpwiki&download_version=1032011120&version_type=1",
+            "hash": "a22e041245446c586d1e1e357d39c00672f29f0bc05e202a4370feff129e898b"
         }
     },
     "checkver": {
         "url": "https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html",
-        "re": ">Stable Build<\/a> \\(([\\d\\.]+)\\)"
+        "re": ">Stable Build</a> \\(([\\d\\.]+)\\)"
     },
     "autoupdate": {
         "architecture": {
