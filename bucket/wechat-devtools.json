@@ -3,11 +3,11 @@
     "homepage": "https://developers.weixin.qq.com/miniprogram/dev/devtools/devtools.html",
     "architecture": {
         "64bit": {
-            "url": "https://servicewechat.com/wxa-dev-logic/download_redirect?type=x64&from=mpwiki&download_version=1032011120&version_type=1",
+            "url": "https://servicewechat.com/wxa-dev-logic/download_redirect?type=x64&from=mpwiki&download_version=1032011120&version_type=1#/dl.7z",
             "hash": "6f28acf57adf5b83ad101161ba3339c83b3ff09306e8904bbd205a24487f9815"
         },
         "32bit": {
-            "url": "https://servicewechat.com/wxa-dev-logic/download_redirect?type=ia32&from=mpwiki&download_version=1032011120&version_type=1",
+            "url": "https://servicewechat.com/wxa-dev-logic/download_redirect?type=ia32&from=mpwiki&download_version=1032011120&version_type=1#/dl.7z",
             "hash": "a22e041245446c586d1e1e357d39c00672f29f0bc05e202a4370feff129e898b"
         }
     },
@@ -18,17 +18,16 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://servicewechat.com/wxa-dev-logic/download_redirect?type=x64&from=mpwiki&download_version=$cleanVersion&version_type=1"
+                "url": "https://servicewechat.com/wxa-dev-logic/download_redirect?type=x64&from=mpwiki&download_version=$cleanVersion&version_type=1#/dl.7z"
             },
             "32bit": {
-                "url": "https://servicewechat.com/wxa-dev-logic/download_redirect?type=ia32&from=mpwiki&download_version=$cleanVersion&version_type=1"
+                "url": "https://servicewechat.com/wxa-dev-logic/download_redirect?type=ia32&from=mpwiki&download_version=$cleanVersion&version_type=1#/dl.7z"
             }
         }
     },
-    "innosetup": true,
     "shortcuts": [
         [
-            "微信开发者工具.exe",
+            "wechatdevtools.exe",
             "微信开发者工具"
         ]
     ]
