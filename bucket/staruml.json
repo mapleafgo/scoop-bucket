@@ -5,7 +5,7 @@
     "hash": "a09a5abb43bb891249f665b07c7dba58331c2d8cca9a4bfd6718b150330b961d",
     "checkver": "<span class=\"badge badge-secondary\">([\\d\\.]+)</span>",
     "autoupdate": {
-        "url": "http://staruml.io/download/releases/StarUML Setup $version.exe#/StarUML.7z"
+        "url": "http://staruml.io/download/releases-v4/StarUML Setup $version.exe#/StarUML.7z"
     },
     "architecture": {
         "64bit": {
