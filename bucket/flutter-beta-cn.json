@@ -1,22 +1,18 @@
 {
     "homepage": "https://flutter.cn/",
-    "version": "1.26.0-17.6.pre",
+    "version": "1.26.0-17.7.pre",
     "license": "BSD-3-Clause",
-    "url": "https://storage.flutter-io.cn/flutter_infra/releases/beta/windows/flutter_windows_1.26.0-17.6.pre-beta.zip",
+    "url": "https://storage.flutter-io.cn/flutter_infra/releases/beta/windows/flutter_windows_1.26.0-17.7.pre-beta.zip",
     "extract_dir": "flutter",
-    "hash": "4e997dfd0dc38336d1918aebe17d701a10262ea2590d05af047a3b828c94b8b3",
+    "hash": "eb0f8106e283d77cf125ddbe2dddfb8866f588e1b75f0d3c7e21d7aa0809fed1",
     "description": "Flutter makes it easy and fast to build beautiful mobile apps.",
     "env_add_path": "bin",
     "env_set": {
         "PUB_HOSTED_URL": "https://pub.flutter-io.cn",
         "FLUTTER_STORAGE_BASE_URL": "https://storage.flutter-io.cn"
     },
-    "bin": [
-        "bin\\flutter.bat"
-    ],
-    "post_install": [
-        "flutter doctor"
-    ],
+    "bin": "bin\\flutter.bat",
+    "post_install": "flutter doctor",
     "checkver": {
         "url": "https://storage.flutter-io.cn/flutter_infra/releases/releases_windows.json",
         "re": "flutter_windows_(.*)-beta"
