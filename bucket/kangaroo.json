@@ -1,12 +1,12 @@
 {
-    "version": "1.9.1.210531",
+    "version": "1.10.1.210731",
     "description": "为热门数据库系统打造的 SQL 客户端和管理工具",
     "homepage": "https://github.com/dbkangaroo/kangaroo",
     "license": "Copyright (c) 2020 ZUHONG TAO",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dbkangaroo/kangaroo/releases/download/v1.9.1.210531/kangaroo-1.9.2.210603-AMD64.7z",
-            "hash": "353e02f204a10db9080f50d93c9571ab6eb482718427d9352ae417c11e5865bc"
+            "url": "https://github.com/dbkangaroo/kangaroo/releases/download/v1.10.1.210731/kangaroo-1.10.1.210731-AMD64.7z",
+            "hash": "1bf2cd3e2334330ae255b0fe824fa5c60075cb9be25470cf98beefc465959c02"
         }
     },
     "checkver": "github",
