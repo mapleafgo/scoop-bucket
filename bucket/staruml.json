@@ -1,8 +1,8 @@
 {
-    "version": "4.1.3",
+    "version": "4.1.4",
     "homepage": "http://staruml.io",
-    "url": "http://staruml.io/download/releases-v4/StarUML Setup 4.1.3.exe#/StarUML.7z",
-    "hash": "64858f05c3da5ba07c3b79cf5777fde66c20e3767b9da424788c61f4d77c45c5",
+    "url": "http://staruml.io/download/releases-v4/StarUML Setup 4.1.4.exe#/StarUML.7z",
+    "hash": "00d27f727b7bd79dd146ac4d091c7371a0aabceab69c12c147e3cec539cf0894",
     "checkver": "<span class=\"badge badge-secondary\">([\\d\\.]+)</span>",
     "autoupdate": {
         "url": "http://staruml.io/download/releases-v4/StarUML Setup $version.exe#/StarUML.7z"
