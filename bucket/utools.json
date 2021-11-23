@@ -7,23 +7,23 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://publish.u-tools.cn/version2/uTools-$version.exe#/uTools.7z"
+                "url": "https://res.u-tools.cn/version2/uTools-$version.exe#/uTools.7z"
             },
             "32bit": {
-                "url": "https://publish.u-tools.cn/version2/uTools-$version-ia32.exe#/uTools.7z"
+                "url": "https://res.u-tools.cn/version2/uTools-$version-ia32.exe#/uTools.7z"
             }
         }
     },
     "architecture": {
         "64bit": {
-            "url": "https://publish.u-tools.cn/version2/uTools-2.4.3.exe#/uTools.7z",
+            "url": "https://res.u-tools.cn/version2/uTools-2.4.3.exe#/uTools.7z",
             "hash": "be57bbbdc90b38244f2e34d036d7a85b143940e41e1bdc8a296b203fdc18d0d4",
             "installer": {
                 "script": "7z x $original_dir/PLUGINSDIR/app-64.7z -o\"$original_dir\""
             }
         },
         "32bit": {
-            "url": "https://publish.u-tools.cn/version2/uTools-2.4.3-ia32.exe#/uTools.7z",
+            "url": "https://res.u-tools.cn/version2/uTools-2.4.3-ia32.exe#/uTools.7z",
             "hash": "413dbb0b76bf6198fe2242e6ab39cf6826cefc3f1f263f9c00be33d3eb80cb71",
             "installer": {
                 "script": "7z x $original_dir/PLUGINSDIR/app-32.7z -o\"$original_dir\""
