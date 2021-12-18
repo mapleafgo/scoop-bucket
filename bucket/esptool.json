@@ -11,5 +11,8 @@
     "autoupdate": {
         "url": "https://github.com/espressif/esptool/releases/download/v$version/esptool-v$version-win64.zip",
         "extract_dir": "esptool-v$version-win64"
-    }
+    },
+    "depends": [
+        "python"
+    ]
 }
