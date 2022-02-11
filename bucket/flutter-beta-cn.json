@@ -18,10 +18,10 @@
         "re": "flutter_windows_(.*)-beta"
     },
     "autoupdate": {
-        "url": "https://storage.flutter-io.cn/flutter_infra_release/releases/stable/windows/flutter_windows_$version-stable.zip",
+        "url": "https://storage.flutter-io.cn/flutter_infra_release/releases/beta/windows/flutter_windows_$version-beta.zip",
         "hash": {
             "url": "https://storage.flutter-io.cn/flutter_infra_release/releases/releases_windows.json",
-            "jp": "$.releases[?(@.hash == $.current_release.beta)].sha256"
+            "jp": "$.releases[?(@.hash==$.current_release.beta & @.channel=='beta')].sha256"
         }
     },
     "suggest": {

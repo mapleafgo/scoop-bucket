@@ -1,19 +1,19 @@
 {
-    "version": "1.05.2110290",
+    "version": "1-05-2201240",
     "homepage": "https://developers.weixin.qq.com/miniprogram/dev/devtools/devtools.html",
     "architecture": {
         "64bit": {
-            "url": "https://servicewechat.com/wxa-dev-logic/download_redirect?type=x64&from=mpwiki&download_version=1052110290&version_type=1#/dl.7z",
-            "hash": "8829f47e8e8fd4bab28c167cf95110177ba5fe531cc1f32b4a9e8543d8c44535"
+            "url": "https://servicewechat.com/wxa-dev-logic/download_redirect?type=x64&from=mpwiki&download_version=1052201240&version_type=1#/dl.7z",
+            "hash": "a83a3671935c63b13c803979df5cf31b2fda41d9ceb7b48d1f9e595fb77b8a38"
         },
         "32bit": {
-            "url": "https://servicewechat.com/wxa-dev-logic/download_redirect?type=ia32&from=mpwiki&download_version=1052110290&version_type=1#/dl.7z",
-            "hash": "8a34bebf8110ea6efca1f692cfbc85af55373db817d20e942481114e9b2d67ae"
+            "url": "https://servicewechat.com/wxa-dev-logic/download_redirect?type=ia32&from=mpwiki&download_version=1052201240&version_type=1#/dl.7z",
+            "hash": "7a5910721e06dd5010a5f492b107001947981046fe168d0360b88c57d33434fa"
         }
     },
     "checkver": {
-        "url": "https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html",
-        "re": ">Stable Build</a> \\(([\\d\\.]+)\\)"
+        "url": "https://developers.weixin.qq.com/miniprogram/dev/devtools/stable.html",
+        "re": "_([\\d-]+)-Windows-64-"
     },
     "autoupdate": {
         "architecture": {
