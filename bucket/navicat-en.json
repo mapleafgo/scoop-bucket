@@ -1,14 +1,14 @@
 {
-    "version": "15.0.28",
+    "version": "16.0.10",
     "homepage": "https://www.navicat.com",
     "architecture": {
         "64bit": {
-            "url": "http://download.navicat.com/download/navicat150_premium_en_x64.exe",
-            "hash": "9850e7d81165f590944621e775cd40b19a467e8df8f317085216c89b4169a8ef"
+            "url": "http://download.navicat.com/download/navicat160_premium_en_x64.exe",
+            "hash": "7dfeeb4b2277cc440610829fa95c595fd2c047abaf6a390fe0c85e038dba87cd"
         },
         "32bit": {
-            "url": "http://download.navicat.com/download/navicat150_premium_en_x86.exe",
-            "hash": "9da4e39ed48ded1e23fbbcf0b119c69882fe8432fbfd28f6f1d65d725b7abb03"
+            "url": "http://download.navicat.com/download/navicat160_premium_en_x86.exe",
+            "hash": "b8f6e7e1aa9fd4c21500965e5f20f463ec8a1d3388039d992b155155f24ef940"
         }
     },
     "checkver": {
