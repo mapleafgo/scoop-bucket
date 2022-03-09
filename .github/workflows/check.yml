@@ -15,7 +15,7 @@ jobs:
       shell: pwsh
       run: |
         set-executionpolicy remotesigned -scope currentuser
-        iwr -useb get.scoop.sh | iex
+        Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
         .\bin\checkver.ps1 -u
     - name: 提交
       if: success()
