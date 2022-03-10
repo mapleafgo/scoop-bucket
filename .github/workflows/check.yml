@@ -7,16 +7,25 @@ on:
 
 jobs:
   check:
-    name: check update
-    runs-on: windows-latest
+#    name: check update
+#    runs-on: windows-latest
+    name: ♻ Update manifests
+    runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-    - name: scoop检查更新
-      shell: pwsh
-      run: |
-        set-executionpolicy remotesigned -scope currentuser
-        Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
-        .\bin\checkver.ps1 -u
+#    - uses: actions/checkout@master
+#    - name: scoop检查更新
+#      shell: pwsh
+#      run: |
+#        set-executionpolicy remotesigned -scope currentuser
+#        Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
+#        .\bin\checkver.ps1 -u
+    - name: ⬇ Checkout repo
+      uses: actions/checkout@master
+    - name: ♻ Run autoupdate
+      uses: foosel/scoop-checkver-action@main
+      with:
+        bucket: bucket
+        force: ${{ github.event.inputs.force }}
     - name: 提交
       if: success()
       run: |
