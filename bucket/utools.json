@@ -1,5 +1,5 @@
 {
-    "version": "2.5.2",
+    "version": "2.6.2",
     "homepage": "https://u.tools/",
     "checkver": {
         "regex": "uTools-([\\d|\\.]+)\\.exe"
@@ -16,15 +16,15 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://res.u-tools.cn/version2/uTools-2.5.2.exe#/uTools.7z",
-            "hash": "84b58199ef8378711a26d3fd5509158dd3604d20542386b2fb4d442098f4b0d3",
+            "url": "https://res.u-tools.cn/version2/uTools-2.6.2.exe#/uTools.7z",
+            "hash": "085031491d493d495b4d4339099a0e6ff14383df21e04eeab2c57f1cc7880291",
             "installer": {
                 "script": "7z x $original_dir/PLUGINSDIR/app-64.7z -o\"$original_dir\""
             }
         },
         "32bit": {
-            "url": "https://res.u-tools.cn/version2/uTools-2.5.2-ia32.exe#/uTools.7z",
-            "hash": "e005ccedd50708bf152aac943fcfb65c045d6c705ce3d26e4bcc4b29b5bc8793",
+            "url": "https://res.u-tools.cn/version2/uTools-2.6.2-ia32.exe#/uTools.7z",
+            "hash": "7bfcd3758ac8606b7e0f9b5fca28d534fda6172d71e43bbe356c7b5376f744ce",
             "installer": {
                 "script": "7z x $original_dir/PLUGINSDIR/app-32.7z -o\"$original_dir\""
             }
