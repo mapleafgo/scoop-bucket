@@ -1,5 +1,5 @@
 {
-    "version": "6.1.0",
+    "version": "6.0.4",
     "homepage": "https://www.apipost.cn/",
     "checkver": {
         "re": "client=Win&arch=x64&version=([\\d\\.]+)"
@@ -7,23 +7,23 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://www.apipost.cn/dl.php?client=Win&arch=x64&version=$version#/uTools.7z"
+                "url": "https://www.apipost.cn/dl.php?client=Win&arch=x64&version=$version#/dl.7z"
             },
             "32bit": {
-                "url": "https://www.apipost.cn/dl.php?client=Win&arch=ia32&version=$version#/uTools.7z"
+                "url": "https://www.apipost.cn/dl.php?client=Win&arch=ia32&version=$version#/dl.7z"
             }
         }
     },
     "architecture": {
         "64bit": {
-            "url": "https://www.apipost.cn/dl.php?client=Win&arch=x64&version=6.1.0#/uTools.7z",
+            "url": "https://www.apipost.cn/dl.php?client=Win&arch=x64&version=6.1.0#/dl.7z",
             "hash": "015454c5ea9e7908a0ff795c0acf9adc901da5de75d1a33e06d53866fc272cc7",
             "installer": {
                 "script": "7z x $original_dir/PLUGINSDIR/app-64.7z -o\"$original_dir\""
             }
         },
         "32bit": {
-            "url": "https://www.apipost.cn/dl.php?client=Win&arch=ia32&version=6.1.0#/uTools.7z",
+            "url": "https://www.apipost.cn/dl.php?client=Win&arch=ia32&version=6.1.0#/dl.7z",
             "hash": "449aa03be55ec571acf1c541e4bbb27689cd06f71d34e078bc562e4ad7bef123",
             "installer": {
                 "script": "7z x $original_dir/PLUGINSDIR/app-32.7z -o\"$original_dir\""
