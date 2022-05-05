@@ -17,14 +17,14 @@
     "architecture": {
         "64bit": {
             "url": "https://www.apipost.cn/dl.php?client=Win&arch=x64&version=6.1.1#/dl.7z",
-            "hash": "0c777e72b10f8ca4bec577d584790a8e791cd4d614829b6e3949fb5784d2bbb1",
+            "hash": "32a4e8e3dd8462282e870f74afaade073e16779281908e146856ce82467a2ae1",
             "installer": {
                 "script": "7z x $original_dir/PLUGINSDIR/app-64.7z -o\"$original_dir\""
             }
         },
         "32bit": {
             "url": "https://www.apipost.cn/dl.php?client=Win&arch=ia32&version=6.1.1#/dl.7z",
-            "hash": "24d38291ebd2300787d9a8ea30774129326f03cc503d8e158c67b2cf4511fdc2",
+            "hash": "cbe54c3a5632885eea0fb49adca9cd24f98f7cd5be914703e6afffa5bc616875",
             "installer": {
                 "script": "7z x $original_dir/PLUGINSDIR/app-32.7z -o\"$original_dir\""
             }
