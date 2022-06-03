@@ -2,6 +2,7 @@
     "version": "6.1.5",
     "homepage": "https://www.apipost.cn/",
     "checkver": {
+		"url": "https://www.apipost.cn/download.html",
         "re": "client=Win&arch=x64&version=([\\d\\.]+)"
     },
     "autoupdate": {
