@@ -18,14 +18,12 @@
     "architecture": {
         "64bit": {
             "url": "https://www.apipost.cn/dl.php?client=Win&arch=x64&version=6.1.5#/dl.7z",
-            "hash": "e699d7e0ff359a6df6da4c110c58486fe04dcff0b4b52768426a2de86f136047",
             "installer": {
                 "script": "7z x $original_dir/PLUGINSDIR/app-64.7z -o\"$original_dir\""
             }
         },
         "32bit": {
             "url": "https://www.apipost.cn/dl.php?client=Win&arch=ia32&version=6.1.5#/dl.7z",
-            "hash": "894d7595a0da34704611a3e89dee0725e4611bcdf9a6501475e1c46c74ae14a5",
             "installer": {
                 "script": "7z x $original_dir/PLUGINSDIR/app-32.7z -o\"$original_dir\""
             }
