@@ -1,10 +1,10 @@
 {
     "homepage": "https://flutter.cn/",
-    "version": "3.1.0",
+    "version": "3.1.0-9.0.pre",
     "license": "BSD-3-Clause",
-    "url": "https://storage.flutter-io.cn/flutter_infra_release/releases/beta/windows/flutter_windows_3.1.0-beta.zip",
+    "url": "https://storage.flutter-io.cn/flutter_infra_release/releases/beta/windows/flutter_windows_3.1.0-9.0.pre-beta.zip",
     "extract_dir": "flutter",
-    "hash": "7eee87176a6ef73808c86f0d575866b50b62d28e1f5008dbf2d8c8f1d4cb7aef",
+    "hash": "7eaa974a2fee3e6d79c9eb12235bd43a53ced2be32eaf27a5ef990187a22a92e",
     "description": "Flutter makes it easy and fast to build beautiful mobile apps.",
     "env_add_path": "bin",
     "env_set": {
