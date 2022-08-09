@@ -1,11 +1,11 @@
 {
-    "version": "4.2",
+    "version": "4.2.1",
     "homepage": "https://github.com/espressif/esptool",
     "description": "A Python-based, open-source, platform-independent utility to communicate with the ROM bootloader in Espressif chips.",
     "license": "GPL-2.0 License",
-    "url": "https://github.com/espressif/esptool/releases/download/v4.2/esptool-v4.2-win64.zip",
-    "hash": "c5036256c12bccf5e845839f411bfe9def0fe032f95f8f885df8ce0d2d6cf0b7",
-    "extract_dir": "esptool-v4.2-win64",
+    "url": "https://github.com/espressif/esptool/releases/download/v4.2.1/esptool-v4.2.1-win64.zip",
+    "hash": "f120c736bf319273b0c0ffacd0cc88bc2defb434af9dfe714474ba5b8708d8ba",
+    "extract_dir": "esptool-v4.2.1-win64",
     "env_add_path": ".",
     "checkver": "github",
     "autoupdate": {
