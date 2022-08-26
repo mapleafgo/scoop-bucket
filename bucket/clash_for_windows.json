@@ -1,8 +1,8 @@
 {
-    "version": "0.19.27",
+    "version": "0.19.28",
     "homepage": "https://github.com/Fndroid/clash_for_windows_pkg",
-    "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.19.27/Clash.for.Windows.Setup.0.19.27.exe#/dl.7z",
-    "hash": "70b04ca5ac3c0282fd8c30456bce7d72321da0a4b8026c7133133144fe3377d4",
+    "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.19.28/Clash.for.Windows.Setup.0.19.28.exe#/dl.7z",
+    "hash": "17bc8e341eb310ab2674bb9d8a3c351756dff573519d705e48be94b9eadc36ca",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/$version/Clash.for.Windows.Setup.$version.exe#/dl.7z"
