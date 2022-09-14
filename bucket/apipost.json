@@ -34,8 +34,8 @@
     "post_install": "rm $original_dir/PLUGINSDIR -recurse",
     "shortcuts": [
         [
-            "ApiPost6.exe",
-            "ApiPost6"
+            "ApiPost7.exe",
+            "ApiPost7"
         ]
     ]
 }
