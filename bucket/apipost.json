@@ -8,10 +8,12 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://www.apipost.cn/dl.php?client=Win&arch=x64&version=$version#/dl.7z"
+                "url": "https://www.apipost.cn/dl.php?client=Win&arch=x64&version=$version#/dl.7z",
+                "hash": "7f5b0ae925bcd366a6a0b024566218fed1e106b5c88fd839fb1a5712b1ff434e"
             },
             "32bit": {
-                "url": "https://www.apipost.cn/dl.php?client=Win&arch=ia32&version=$version#/dl.7z"
+                "url": "https://www.apipost.cn/dl.php?client=Win&arch=ia32&version=$version#/dl.7z",
+                "hash": "ed018d20f2820fe15746412e9b7de981818c1b378a84c15502ea0f589d2e8074"
             }
         }
     },
