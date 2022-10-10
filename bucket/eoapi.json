@@ -1,9 +1,9 @@
 {
-    "version": "1.6.1",
+    "version": "1.7.0",
     "homepage": "https://github.com/eolinker/eoapi",
     "checkver": "github",
     "url": "https://github.com/eolinker/eoapi/releases/download/v1.7.0/eoapi-Setup-1.7.0.exe#/dl.7z",
-    "hash": "",
+    "hash": "2eef15a9f41d966e6836ceb956b51ecb1319b6ba22213edf0e60a605e540b84a",
     "autoupdate": {
         "url": "https://github.com/eolinker/eoapi/releases/download/v$version/eoapi-Setup-$version.exe#/dl.7z"
     },
