@@ -13,7 +13,10 @@
         "FLUTTER_STORAGE_BASE_URL": "https://storage.flutter-io.cn"
     },
     "bin": "bin\\flutter.bat",
-    "post_install": "flutter doctor",
+    "post_install": [
+        "git -C $dir\\packages\\flutter remote set-url origin https://gitee.com/mirrors/Flutter.git",
+        "flutter doctor"
+    ],
     "checkver": {
         "url": "https://storage.googleapis.com/flutter_infra_release/releases/releases_windows.json",
         "re": "flutter_windows_(.*)-beta"
