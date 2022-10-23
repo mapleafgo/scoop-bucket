@@ -1,10 +1,10 @@
 {
     "homepage": "https://flutter.cn/",
-    "version": "3.1.0-9.0.pre",
+    "version": "3.4.0-34.1.pre",
     "license": "BSD-3-Clause",
-    "url": "https://storage.flutter-io.cn/flutter_infra_release/releases/beta/windows/flutter_windows_3.1.0-9.0.pre-beta.zip",
+    "url": "https://storage.flutter-io.cn/flutter_infra_release/releases/beta/windows/flutter_windows_3.4.0-34.1.pre-beta.zip",
     "extract_dir": "flutter",
-    "hash": "7eaa974a2fee3e6d79c9eb12235bd43a53ced2be32eaf27a5ef990187a22a92e",
+    "hash": "8c397f8ee6494c04ff38971e43426d07d32dde03730dd943bb3691497b9a0865",
     "description": "Flutter makes it easy and fast to build beautiful mobile apps.",
     "env_add_path": "bin",
     "env_set": {
@@ -21,35 +21,8 @@
         "url": "https://storage.flutter-io.cn/flutter_infra_release/releases/beta/windows/flutter_windows_$version-beta.zip",
         "hash": {
             "url": "https://storage.googleapis.com/flutter_infra_release/releases/releases_windows.json",
-            "jp": "$.releases[?(@.hash==$.current_release.beta & @.channel=='beta')].sha256"
+            "jp": "$.releases[?(@.version == /$version/)].sha256"
         }
-    },
-    "suggest": {
-        "AndroidSDK": "android-sdk",
-        "JDK": [
-            "java/adopt8-hotspot",
-            "java/adoptopenjdk-lts-hotspot",
-            "java/liberica",
-            "java/liberica8",
-            "java/ojdkbuild",
-            "java/ojdkbuild8",
-            "java/sapmachine",
-            "java/sapmachine",
-            "java/sapmachine-lts",
-            "java/openjdk",
-            "java/oraclejdk",
-            "java/corretto",
-            "java/corretto8",
-            "java/graalvm",
-            "java/zulu",
-            "java/zulu8",
-            "java/zulufx",
-            "java/zulufx8"
-        ],
-        "Visual Studio Code with Flutter Extension": [
-            "vscode",
-            "vscode-portable"
-        ]
     },
     "notes": [
         "Flutter has been successfully installed and put in your PATH.",
