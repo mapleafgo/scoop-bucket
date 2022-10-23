@@ -1,16 +1,10 @@
 {
     "homepage": "https://flutter.cn/",
-    "version": "3.3.5",
+    "version": "3.3.",
     "license": "BSD-3-Clause",
-    "url": [
-        "https://storage.flutter-io.cn/flutter_infra_release/releases/stable/windows/flutter_windows_3.3.5-stable.zip",
-        "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/flutter-dev-setup.ps1"
-    ],
+    "url": "https://storage.flutter-io.cn/flutter_infra_release/releases/stable/windows/flutter_windows_3.3.5-stable.zip",
     "extract_dir": "flutter",
-    "hash": [
-        "87e8d83662de7a90c4aa86e766f5a0a5d3ac7c26c07ebc770c109d14b0105e82",
-        "bbd8dd269dd70d97e0224025281e55b7e2e32364d5c47e082ca7f45e33d1a613"
-    ],
+    "hash": "87e8d83662de7a90c4aa86e766f5a0a5d3ac7c26c07ebc770c109d14b0105e82",
     "description": "Flutter makes it easy and fast to build beautiful mobile apps.",
     "env_add_path": "bin",
     "env_set": {
@@ -18,15 +12,8 @@
         "PUB_HOSTED_URL": "https://pub.flutter-io.cn",
         "FLUTTER_STORAGE_BASE_URL": "https://storage.flutter-io.cn"
     },
-    "bin": [
-        "bin\\flutter.bat",
-        "flutter-dev-setup.ps1"
-    ],
-    "post_install": [
-        "flutter-dev-setup.ps1",
-        "Write-Host Some licenses need to be accepted before developing. We recommend you do so by running 'flutter doctor --android-licenses'. -ForegroundColor Yellow",
-        "flutter doctor"
-    ],
+    "bin": "bin\\flutter.bat",
+    "post_install": "flutter doctor",
     "checkver": {
         "url": "https://storage.googleapis.com/flutter_infra_release/releases/releases_windows.json",
         "re": "flutter_windows_(.*)-stable"
@@ -35,7 +22,7 @@
         "url": "https://storage.flutter-io.cn/flutter_infra_release/releases/stable/windows/flutter_windows_$version-stable.zip",
         "hash": {
             "url": "https://storage.googleapis.com/flutter_infra_release/releases/releases_windows.json",
-            "jp": "$.releases[?(@.archive =~ /.*flutter_windows_$version-stable.zip/)].sha256"
+            "jp": "$.releases[?(@.hash == $.current_release.stable)].sha256"
         }
     },
     "notes": [
