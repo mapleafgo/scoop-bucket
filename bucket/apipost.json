@@ -1,5 +1,5 @@
 {
-    "version": "5.4.2",
+    "version": "7.0.11",
     "homepage": "https://www.apipost.cn/",
     "checkver": {
         "url": "https://www.apipost.cn/download.html",
@@ -17,15 +17,15 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://www.apipost.cn/dl.php?client=Win&arch=x64&version=5.4.2#/dl.7z",
-            "hash": "2e999c7d8ef8884d5f14c57fae16c2537f6e2f9b3f11f6be49a66aec6a0a7489",
+            "url": "https://www.apipost.cn/dl.php?client=Win&arch=x64&version=7.0.11#/dl.7z",
+            "hash": "e73cac843f6290c85aa240748001982b1521e87626954e134a95698dc2f016b8",
             "installer": {
                 "script": "7z x $original_dir/PLUGINSDIR/app-64.7z -o\"$original_dir\""
             }
         },
         "32bit": {
-            "url": "https://www.apipost.cn/dl.php?client=Win&arch=ia32&version=5.4.2#/dl.7z",
-            "hash": "b3b427713c8171f742d2001a6dc2ab0d18f22279cace3e0bf55e10b635ad237e",
+            "url": "https://www.apipost.cn/dl.php?client=Win&arch=ia32&version=7.0.11#/dl.7z",
+            "hash": "fc6380a46764ebeaf4db4740aab74e26aa7684e07e7ebeb69df0996805736d80",
             "installer": {
                 "script": "7z x $original_dir/PLUGINSDIR/app-32.7z -o\"$original_dir\""
             }
