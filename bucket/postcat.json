@@ -1,9 +1,9 @@
 {
-    "version": "0.0.1-beta",
+    "version": "0.1.0",
     "homepage": "https://github.com/eolinker/postcat",
     "checkver": "github",
-    "url": "https://github.com/eolinker/postcat/releases/download/v0.0.1-beta/Postcat.0.0.1-beta.exe#/dl.7z",
-    "hash": "fbf51a0a0a18b43c7f331450a33e8bdb993fd9e2dc2d6e314d7a24c059ff6479",
+    "url": "https://github.com/eolinker/postcat/releases/download/v0.1.0/Postcat.0.1.0.exe#/dl.7z",
+    "hash": "64611dc8e3520a3b6b2d50b9cf1bacf2f68a5f60866216382841690ac1922cb6",
     "autoupdate": {
         "url": "https://github.com/eolinker/postcat/releases/download/v$version/Postcat.$version.exe#/dl.7z"
     },
