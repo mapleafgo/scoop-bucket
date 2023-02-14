@@ -1,0 +1,32 @@
+{
+    "version": "2.0.4",
+    "homepage": "https://github.com/lyswhut/lx-music-desktop",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v$version/lx-music-desktop-v$version-win_x64-green.7z"
+            },
+            "32bit": {
+                "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v$version/lx-music-desktop-v$version-win_x86-green.7z"
+            }
+        }
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v2.0.4/lx-music-desktop-v2.0.4-win_x64-green.7z",
+            "hash": "a07be892bf9fe43c1c96f2aa21380642e21411295c1f66404bfa00bc19422439"
+        },
+        "32bit": {
+            "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v2.0.4/lx-music-desktop-v2.0.4-win_x86-green.7z",
+            "hash": "b58a420742a4ad50485840310ff1eb7068d5122ec8e9e3872ff6ae3d0846cb3a"
+        }
+    },
+    "extract_to": "",
+    "shortcuts": [
+        [
+            "lx-music-desktop.exe",
+            "洛雪音乐"
+        ]
+    ]
+}
