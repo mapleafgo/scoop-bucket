@@ -6,7 +6,7 @@
         "re": "pixso_win_v([\\d_]+).exe"
     },
     "url": "https://pixso-public.oss-cn-hangzhou.aliyuncs.com/cms/download/desktop/pixso_win_v1_32_0.exe#/dl.7z",
-    "hash": "",
+    "hash": "a8528b40001c3ddad70dfb0dca1eb9c859b0e341d69b288070b05ca72e3a2f83",
     "autoupdate": {
         "architecture": {
             "64bit": {
