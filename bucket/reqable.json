@@ -1,9 +1,9 @@
 {
-    "version": "2.10.1",
+    "version": "2.10.2",
     "homepage": "https://github.com/reqable/reqable-app",
     "checkver": "github",
-    "url": "https://github.com/reqable/reqable-app/releases/download/2.10.1/reqable-app-windows-x86_64.zip",
-    "hash": "7a200f6632a7e4449e97ca250d31a3c8a352ca3b0632f0059141f9b2b3dff79c",
+    "url": "https://github.com/reqable/reqable-app/releases/download/2.10.2/reqable-app-windows-x86_64.zip",
+    "hash": "7548b6e6f62915d4c05ac7b53c4d4964bd689ef1de2ceac78c84798cc6ef59e4",
     "autoupdate": {
         "url": "https://github.com/reqable/reqable-app/releases/download/$version/reqable-app-windows-x86_64.zip"
     },
