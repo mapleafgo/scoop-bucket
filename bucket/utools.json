@@ -1,5 +1,5 @@
 {
-    "version": "4.4.1",
+    "version": "5.1.0",
     "homepage": "https://www.u.tools/",
     "checkver": {
         "url": "https://www.u.tools/download/",
@@ -17,15 +17,15 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://open.u-tools.cn/download/uTools-4.4.1.exe#/uTools.7z",
-            "hash": "61be90771bf3c7370f28c296836690edfbe4496c365f2fe22770f32065b0d61d",
+            "url": "https://open.u-tools.cn/download/uTools-5.1.0.exe#/uTools.7z",
+            "hash": "98004c5bfee1fa5f4f6b1a203a6a8d952399e2fd7246d1e891c2c0521fc74697",
             "installer": {
                 "script": "7z x $original_dir/PLUGINSDIR/app-64.7z -o\"$original_dir\""
             }
         },
         "32bit": {
-            "url": "https://open.u-tools.cn/download/uTools-4.4.1-ia32.exe#/uTools.7z",
-            "hash": "b0fdd677cc31946181bd72828dc28ddb0f561279e2ea3e5e07bf6d1edb031244",
+            "url": "https://open.u-tools.cn/download/uTools-5.1.0-ia32.exe#/uTools.7z",
+            "hash": "162f05eae01aded2f040e444771021336c043b61c1ec560d8deca1514ffd9a1e",
             "installer": {
                 "script": "7z x $original_dir/PLUGINSDIR/app-32.7z -o\"$original_dir\""
             }
