@@ -1,16 +1,16 @@
 {
-    "version": "1.34.1",
-    "homepage": "https://pixso.cn/",
+    "version": "1.6.1",
+    "homepage": "https://boardmix.cn/",
     "checkver": {
-        "url": "https://pixso.cn/download/",
-        "re": "/([\\d\\.]+)/Pixso_win_v"
+        "url": "https://boardmix.cn/download/",
+        "re": "/([\\d\\.]+)/boardmix_win_"
     },
-    "url": "https://cms-oss.pixso.cn/packages/download/desktop/bosyun/1.34.1/Pixso_win_v1_34_1.exe#/dl.7z",
+    "url": "https://cms-oss.boardmix.cn/packages/download/desktop/bosyun/1.6.4/boardmix_win_1.6.4_x64.exe#/dl.7z",
     "hash": "",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://cms-oss.pixso.cn/packages/download/desktop/bosyun/$version/pixso_win_v$underscoreVersion#/dl.7z"
+                "url": "https://cms-oss.boardmix.cn/packages/download/desktop/bosyun/$version/boardmix_win_$version_x64.exe#/dl.7z"
             }
         }
     },
@@ -26,8 +26,8 @@
     "post_install": "rm $original_dir/PLUGINSDIR -recurse",
     "shortcuts": [
         [
-            "Pixso.exe",
-            "Pixso"
+            "boardmix.exe",
+            "boardmix"
         ]
     ]
 }
