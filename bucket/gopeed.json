@@ -1,10 +1,10 @@
 {
-    "version": "1.5.7",
+    "version": "1.5.8",
     "homepage": "https://github.com/GopeedLab/gopeed",
     "description": "High speed downloader that supports all platforms.",
     "license": "GPL-3.0 license",
-    "url": "https://github.com/GopeedLab/gopeed/releases/download/v1.5.7/Gopeed-v1.5.7-windows-amd64-portable.zip",
-    "hash": "e4f83de61caa778295c7a9ba86ca6c4d05c3b095219eccb8669ba07b85851869",
+    "url": "https://github.com/GopeedLab/gopeed/releases/download/v1.5.8/Gopeed-v1.5.8-windows-amd64-portable.zip",
+    "hash": "3ef2cc50e542c2b570d27eb0ab2601731bd4b4621a9409460baf678c41284c19",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/GopeedLab/gopeed/releases/download/v$version/Gopeed-v$version-windows-amd64-portable.zip"
