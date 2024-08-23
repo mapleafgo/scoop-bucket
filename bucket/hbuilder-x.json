@@ -10,6 +10,7 @@
     "autoupdate": {
         "url": "https://download1.dcloud.net.cn/download/HBuilderX.$version.zip"
     },
+    "extract_dir": "HBuilderX",
     "shortcuts": [
         [
             "HBuilderX.exe",
