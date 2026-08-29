@@ -1,10 +1,10 @@
 {
-    "version": "26.7.0-0",
+    "version": "26.8.0-0",
     "homepage": "https://github.com/hoppscotch/releases",
     "description": "Hoppscotch Desktop App releases.",
     "license": "MIT License",
-    "url": "https://github.com/hoppscotch/releases/releases/download/v26.7.0-0/Hoppscotch_win_x64.msi",
-    "hash": "ce94ff1369bb6f5ad558c8ca78842e85acb4fe5cda87075967bdc5ba568c863d",
+    "url": "https://github.com/hoppscotch/releases/releases/download/v26.8.0-0/Hoppscotch_win_x64.msi",
+    "hash": "8affcafbda2b7ffae2d942d24692974dbb4a4ab9efc1f9cfe27c3d32b3ecf84d",
     "extract_dir": "PFiles\\Hoppscotch",
     "checkver": {
         "url": "https://github.com/hoppscotch/releases/releases/latest",
